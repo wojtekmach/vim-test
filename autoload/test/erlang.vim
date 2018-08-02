@@ -1,4 +1,4 @@
 let test#erlang#patterns = {
-  \ 'test':      ['\v^\s*(test_\w*)\('],
+  \ 'test':      ['\v_tests\.erl$'],
   \ 'namespace': [],
 \}
