@@ -47,7 +47,7 @@ function! test#run_last(arguments) abort
 
     call s:after_run()
   else
-    call s:echo_failure('No tests were run so far')
+    call test#run('file', a:arguments)
   endif
 endfunction
 
